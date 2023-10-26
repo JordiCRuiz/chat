@@ -9,7 +9,7 @@
 <body>
 <h1>Rooms List</h1>
 <form>
-    <label for="selectOption">Select a room:</label>
+    <label for="selectOption">Select a Room:</label>
     <select id="selectOption" name="selectedOption">
         <option th:each="option : ${options}" th:value="${option}" th:text="${option}"></option>
     </select>
